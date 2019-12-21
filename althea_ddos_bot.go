@@ -14,4 +14,4 @@ func request(url string) string{
 	if err != nil{log.Fatalln(err)}
 	return string(body)
 }
-func main(){for {println(request(os.Args[1]))}}
+func main(){println(request(os.Args[1]))}
